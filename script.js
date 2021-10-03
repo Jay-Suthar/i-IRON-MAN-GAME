@@ -94,26 +94,26 @@ setInterval(() => {
             }
 
             else if (score_cnt == 30){
-                newDur = aniDur - 0.3;
+                newDur = aniDur - 0.4;
                 villain.style.animationDuration = newDur + 's';
                 console.log(newDur);
             }
 
-            else if (score_cnt == 40) {
-                newDur = aniDur - 0.1;
-                villain.style.animationDuration = newDur + 's';
-                console.log(newDur);
-            }
-            else if (score_cnt == 50) {
-                newDur = aniDur - 0.1;
-                villain.style.animationDuration = newDur + 's';
-                console.log(newDur);
-            }
-            else if (score_cnt == 60) {
-                newDur = aniDur - 0.1;
-                villain.style.animationDuration = newDur + 's';
-                console.log(newDur);
-            }
+//             else if (score_cnt == 40) {
+//                 newDur = aniDur - 0.1;
+//                 villain.style.animationDuration = newDur + 's';
+//                 console.log(newDur);
+//             }
+//             else if (score_cnt == 50) {
+//                 newDur = aniDur - 0.1;
+//                 villain.style.animationDuration = newDur + 's';
+//                 console.log(newDur);
+//             }
+//             else if (score_cnt == 60) {
+//                 newDur = aniDur - 0.1;
+//                 villain.style.animationDuration = newDur + 's';
+//                 console.log(newDur);
+//             }
         }, 500);
     }
 
